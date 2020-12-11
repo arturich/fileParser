@@ -20,5 +20,9 @@ This class will recieve an ArrayList of strings and it will show statistics for:
   -Number of words
   -Number of dots 
   -Most used word in the file content.
-  
+ 
+ 
+ In a Nutshell the way they Interact is the MonitorFiles class will create an object of FileMonitor that has the main logic to process all different supported file extensions, at identifying al different file extensions, it will call the correct parser, in the case of this example the parser for the TXT file and also the FileStatistic to calculate and show.
+ 
+ 
   
